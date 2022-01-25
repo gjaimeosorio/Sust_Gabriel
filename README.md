@@ -1,4 +1,6 @@
 # Prueba técnica Python - Ceiba Software
+## Gabriel Jaime Osorio Hernández
+### g.osorioe90@gmail.com
 
 Para levantar la API en Visual Studio Code:
 1. Instalar el framework Flasy y la base de datos MySQL usando el comando `$ pip install flask flask-mysqldb` en una terminal.
