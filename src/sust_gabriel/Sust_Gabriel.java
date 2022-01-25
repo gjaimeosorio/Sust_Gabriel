@@ -80,12 +80,15 @@ public class Sust_Gabriel {
                     }
                     if(band==true){
                             System.out.println("¡¡¡Producto encontrado!!!");
-                            name = arrayProductos[i-1].getNombre(); 
+                            name = arrayProductos[i-2].getNombre(); 
                             arrayProductos[aux2].setNombre(name);
-                            cant = arrayProductos[i-1].getCantProd();
+                            cant = arrayProductos[i-2].getCantProd();
                             arrayProductos[aux2].setCantProd(cant);
-                            price = arrayProductos[i-1].getPrecio();
+                            price = arrayProductos[i-2].getPrecio();
                             arrayProductos[aux2].setPrecio(price);
+                            arrayProductos[aux2].setNombre(" ");
+                            arrayProductos[aux2].setCantProd(0);
+                            arrayProductos[aux2].setPrecio(0);
                     }
                         else{
                              System.out.println("¡¡¡El producto no existe!!!");
